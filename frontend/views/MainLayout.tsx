@@ -21,13 +21,16 @@ export default function MainLayout() {
                     <h1 className="text-l m-0">Hybrid example</h1>
                     <nav>
                         <NavLink className={navLinkClasses} to="/">
-                            About
-                        </NavLink>
-                        <NavLink className={navLinkClasses} to="/hilla">
                             Hilla
+                        </NavLink>
+                        <NavLink className={navLinkClasses} to="/x">
+                            X
                         </NavLink>
                         <NavLink to={'/flow'} className={navLinkClasses}>
                             Flow
+                        </NavLink>
+                        <NavLink className={navLinkClasses} to="/about">
+                            About
                         </NavLink>
                     </nav>
                 </header>

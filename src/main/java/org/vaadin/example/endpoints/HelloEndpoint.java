@@ -11,7 +11,7 @@ public class HelloEndpoint {
     @Nonnull
     public String sayHello(@Nonnull String name) {
         if (name.isEmpty()) {
-            return "Hello stranger";
+            return "Hello strangezzzrz";
         } else {
             return "Hello " + name;
         }

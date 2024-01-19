@@ -9,8 +9,8 @@ export const routes = [
         element: <MainLayout />,
         handle: { title: 'Main' },
         children: [
-            { path: '/', element: <AboutView />, handle: { title: 'Welcome' } },
-            { path: '/hilla', element: <HillaView />, handle: { title: 'Hilla' } },
+            { path: '/', element: <HillaView helloMsg="Hello from routes.tsx"/>, handle: { title: 'Hilla' } },
+            { path: '/about', element: <AboutView />, handle: { title: 'Welcome' } },
             ...serverSideRoutes
         ],
     },
